@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title lang='en'>Chocolate Gavel</title>
+  <meta name="charset" content="utf-8"/>
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="fav.ico"/>
+  <meta name="description" content="Seth Herr and stuff. @sethherr"/>
+  <style>
+  html, body {
+    padding: 0; margin: 0;
+    width: 100%; height: 100%;
+  }
+  html { background: #000; }
+  div {
+    background: url(miriam1_small.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    padding: 0; margin: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+  }
+  .miriam2 { background-image: url(miriam2_small.jpg); }
+  .dan1 { background-image: url(dan1_small.jpg); }
+  .dan2 { background-image: url(dan2_small.jpg); }
+  .seth1 { background-image: url(seth1_small.jpg); }
+  .seth2 { background-image: url(seth2_small.jpg); }
+  .sassy1 { background-image: url(sassy1_small.jpg); }
+  .sassy2 { background-image: url(sassy2_small.jpg); }
+  .sassy3 { background-image: url(sassy3_small.jpg); }
+  .sassy4 { background-image: url(sassy4_small.jpg); }
+  
+  @media (min-width: 2000px) {
+    /* Lols, these images are huge, probs don't want 'em */
+    .miriam1 { background-image: url(miriam1.jpg); }
+    .miriam2 { background-image: url(miriam2.jpg); }
+    .dan1 { background-image: url(dan1.jpg); }
+    .dan2 { background-image: url(dan2.jpg); }
+    .seth1 { background-image: url(seth1.jpg); }
+    .seth2 { background-image: url(seth2.jpg); }
+    .sassy1 { background-image: url(sassy1.jpg); }
+    .sassy2 { background-image: url(sassy2.jpg); }
+    .sassy3 { background-image: url(sassy3.jpg); }
+    .sassy4 { background-image: url(sassy4.jpg); }
+  }
+
+  .active { z-index: 100; }
+  .active.overactive{ z-index: 105; }
+
+</style>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="images.js"></script>
+</head>
+<body>
+  <div class="sassy sassy1"></div>
+  <div class="sassy sassy2"></div>
+  <div class="sassy sassy3"></div>
+  <div class="sassy sassy4"></div>
+  <div class="seth seth1"></div>
+  <div class="seth seth2"></div>
+  <div class="dan dan1"></div>
+  <div class="dan dan2"></div>
+  <div class="miriam miriam1 active"></div>
+  <div class="miriam miriam2 active"></div>
+</body>
+</html>
