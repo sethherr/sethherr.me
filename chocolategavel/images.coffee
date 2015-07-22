@@ -31,6 +31,7 @@ switchImage = ->
   else
     $('.miriam').addClass('active')
     $('.sassy').removeClass('active')
+    $('div').removeClass('hidden')
 
 
 $(document).ready ->
